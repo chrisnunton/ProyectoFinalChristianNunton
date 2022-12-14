@@ -1,0 +1,51 @@
+/*------------------maestro.html---------------------------------*/
+@mixin cajabodypaginamaestro($color,$rep,$opa){
+    background-color: $color;
+    background-repeat: $rep;
+    opacity: $opa;
+}
+
+#cajabodymaestro{
+    @include cajabodypaginamaestro(rgba(211, 18, 11, 0.876),repeat, 0.9);
+    
+}
+
+%dispo{
+    display:flex;
+    flex-direction: column;
+}
+
+
+#cajadeimagen{
+
+    @extend %dispo;
+    padding-top: 20px;
+    padding-left:80px ;
+    padding-right:80px ;
+
+    p{
+        color:white;
+        font-size: 35px;
+        padding-top: 80px;
+    }
+}
+
+#listadetiendasmaestro{
+    
+    @extend %dispo;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left:80px ;
+    padding-right:80px ;
+    img{
+        height: 200px;
+        width: 500px;
+    }
+    p{
+        color:white;
+        font-family: 'Courier New';
+        font-size: 25px;
+        text-align: center;
+    }
+}

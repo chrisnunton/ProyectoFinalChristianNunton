@@ -1,0 +1,31 @@
+@import './base/var';
+@import './base/listas';
+@import './base/mapssodimaccorporativo';
+@import './base/extendsSodimac.scss';
+
+@import './base/mixinMaestro';
+
+
+
+@import './componentes/divdemibodyIndex.scss';
+@import './componentes/header.scss';
+@import './componentes/nav.scss';
+@import './componentes/section.scss';
+@import './componentes/aside.scss';
+@import './componentes/footer.scss';
+
+
+@import './componentes/mainsodimaccorporativo';
+@import './componentes/regresoindex';
+
+@import './componentes/divdemibodySodimac';
+@import './componentes/divdemibodyMaestro';
+
+
+
+@import './componentes/estiloscontacto';
+
+@import './componentes/movileindex';
+@import './componentes/movilesodimaccorporativos';
+@import './componentes/movilesodimac';
+@import './componentes/movilemaestro';

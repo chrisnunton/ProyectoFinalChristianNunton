@@ -1,0 +1,456 @@
+@charset "UTF-8";
+/*Colores 
+        azul: para el menu de navegacion
+        rojo: para el aside
+        naranja: para el footer
+*/
+#listadetiendasmaestro, #listadetiendassodimac, #cajadeimagen {
+  display: flex;
+  flex-direction: column;
+}
+
+#cajadeimagen {
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#cajadeimagen p {
+  color: white;
+  font-size: 35px;
+  padding-top: 80px;
+}
+
+#listadetiendassodimac {
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#listadetiendassodimac img {
+  height: 200px;
+  width: 500px;
+}
+#listadetiendassodimac p {
+  color: white;
+  font-family: "Courier New";
+  font-size: 25px;
+  text-align: center;
+}
+
+/*------------------maestro.html---------------------------------*/
+#cajabodymaestro {
+  background-color: rgba(211, 18, 11, 0.876);
+  background-repeat: repeat;
+  opacity: 0.9;
+}
+
+#listadetiendasmaestro, #cajadeimagen, #listadetiendassodimac {
+  display: flex;
+  flex-direction: column;
+}
+
+#cajadeimagen {
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#cajadeimagen p {
+  color: white;
+  font-size: 35px;
+  padding-top: 80px;
+}
+
+#listadetiendasmaestro {
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#listadetiendasmaestro img {
+  height: 200px;
+  width: 500px;
+}
+#listadetiendasmaestro p {
+  color: white;
+  font-family: "Courier New";
+  font-size: 25px;
+  text-align: center;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+#imagendefondo {
+  background-image: url("../assets/imagenes/fondodosasesores.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*----Estilos a mi header----*/
+/*
+Se usa la variable f para usar flex
+Asi mismo se usa listas para el uso del tamaño de la fuente y el color de ella
+*/
+.divheader {
+  display: flex;
+}
+.divheader h1 {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  padding-top: 10px;
+}
+
+/*-------Estilos a mi nav--------*/
+/*
+   background Valor 1: se selecciona el color azul
+   color Valor 1: se selecciona el color azul
+   font-size: Valor 2: se selecciona tamaño fuente 22px
+*/
+#navindex {
+  background: rgba(16, 60, 255, 0.876);
+  background-blend-mode: soft-light;
+}
+
+#MenuNavegacion a {
+  color: white;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#MenuNavegacion a:hover {
+  color: red;
+  border: 5px solid red;
+  font-size: 30px;
+}
+
+/*----Estilos a mi Section----*/
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+section article {
+  width: min-content;
+}
+section article p {
+  color: white;
+  font-family: "Courier New";
+  font-size: 50px;
+}
+section article div span a {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+section article div span a:hover {
+  color: red;
+}
+
+/*----Estilos de mi aside----*/
+#asideindex {
+  background: rgba(250, 50, 50, 0.876);
+  background-blend-mode: soft-light;
+}
+
+aside {
+  align-items: center;
+  margin: 10px;
+}
+aside iframe {
+  width: 100%;
+  height: 20rem;
+}
+aside .video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+aside .video p {
+  color: white;
+  font-family: "Courier New";
+  font-size: 20px;
+  text-align: center;
+}
+
+/*----Estilos de mi footer----*/
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+footer .classfooter {
+  align-items: center;
+  display: flex;
+  gap: 2px;
+}
+footer .classfooter a {
+  color: white;
+  text-decoration: none;
+}
+footer .classfooter a p {
+  margin: 20px;
+}
+
+/*----Estilos a mi main----*/
+main {
+  background-color: rgba(16, 60, 255, 0.876);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main p {
+  margin: 100px;
+  color: white;
+  font-family: "Courier New";
+  font-size: 20px;
+  text-align: center;
+}
+main img {
+  width: 500px;
+  height: 500px;
+  padding-bottom: 20px;
+}
+
+#regresoindex {
+  background-color: rgba(255, 255, 255, 0.876);
+  display: flex;
+  justify-content: center;
+}
+#regresoindex a {
+  font-size: 32px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+}
+#regresoindex a:hover {
+  color: red;
+}
+
+#cajabody {
+  background-color: rgba(22, 35, 205, 0.876);
+  background-repeat: repeat;
+  opacity: 0, 5;
+}
+
+/*--dando animaciones  a mis imagenes de los diversos maestros y sodimac en sodimachtml y maestrohtml */
+.animacion:hover {
+  transform: scale(0.9);
+  transition: all 1.5s;
+}
+
+.sodimac h4 {
+  color: red;
+  text-decoration: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.maestro h4 {
+  color: red;
+  text-decoration: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: Arial;
+  background-color: #1027db;
+  box-sizing: border-box;
+}
+
+form {
+  background-color: white;
+  border-radius: 3px;
+  color: #999;
+  font-size: 0.8em;
+  padding: 20px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+input, textarea {
+  border: 0;
+  outline: none;
+  width: 280px;
+}
+
+.field {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+.field:focus {
+  border-color: #a31d18;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-green {
+  color: white;
+  background-color: #3CC93F;
+}
+
+.btn-green:hover {
+  background-color: #37B839;
+}
+
+.btn-green:active {
+  background-color: #29962A;
+}
+
+@media screen and (max-width: 1000px) {
+  #divfondosection {
+    background-color: yellow;
+  }
+  #divfondosection #idsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #divfondosection #idsection article p {
+    color: black;
+    font-family: "Courier New";
+    font-size: 52px;
+  }
+  #divfondosection #idsection article div span a {
+    color: black;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+}
+@media screen and (max-width: 576px) {
+  #divfondosection {
+    background-color: white;
+  }
+  #divfondosection #idsection article p {
+    color: black;
+    font-family: "Courier New";
+    font-size: 50px;
+  }
+  #divfondosection #idsection article div span a {
+    color: black;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .row .classfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row .classfooter a {
+    text-decoration: none;
+  }
+  .row .classfooter a p {
+    margin: 20px;
+  }
+}
+
+/*-----------MOVILE SODIMACCORPORATIVO.HTML---------*/
+@media screen and (max-width: 925px) {
+  #cajaprincipalsodimacorporativo .soysection2 {
+    display: none;
+  }
+  #cajaprincipalsodimacorporativo main {
+    background-color: rgba(255, 255, 255, 0.876);
+  }
+  #cajaprincipalsodimacorporativo main p {
+    color: black;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  #cajaprincipalsodimacorporativo main img {
+    width: 350px;
+    height: 350px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #cajaprincipalsodimacorporativo main p {
+    color: red;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+}
+
+#cajabody {
+  color: white;
+}
+@media screen and (max-width: 1150px) {
+  #cajabody #listadetiendassodimac img {
+    width: 110%;
+  }
+  #cajabody #cajadeimagen p {
+    font-size: 30px;
+  }
+  #cajabody #cajadeimagen p img {
+    width: 120%;
+  }
+}
+@media screen and (max-width: 576px) {
+  #cajabody #listadetiendassodimac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #cajabody #listadetiendassodimac img {
+    width: 100%;
+  }
+  #cajabody #cajadeimagen img {
+    width: 100%;
+  }
+  #cajabody #cajadeimagen p {
+    font-size: 30px;
+  }
+}
+
+#cajabodymaestro {
+  color: white;
+}
+@media screen and (max-width: 1150px) {
+  #cajabodymaestro #listadetiendasmaestro img {
+    width: 110%;
+  }
+  #cajabodymaestro #cajadeimagen p {
+    font-size: 30px;
+  }
+  #cajabodymaestro #cajadeimagen p img {
+    width: 120%;
+  }
+}
+@media screen and (max-width: 576px) {
+  #cajabodymaestro #listadetiendasmaestro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #cajabodymaestro #listadetiendasmaestro img {
+    width: 100%;
+  }
+  #cajabodymaestro #cajadeimagen img {
+    width: 100%;
+  }
+  #cajabodymaestro #cajadeimagen p {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

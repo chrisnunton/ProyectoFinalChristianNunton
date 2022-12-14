@@ -1,0 +1,46 @@
+#cajabody{
+    color:white;
+    @media screen and (max-width: 1150px){
+
+        #listadetiendassodimac img{
+             width: 110%;
+        }
+        #cajadeimagen p{
+             font-size: 30px;
+             img{
+                width: 120%;
+           }
+        }
+       
+     
+     }
+
+
+ @media screen and (max-width: 576px){
+    #listadetiendassodimac{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%
+         }
+
+    }
+    
+        #cajadeimagen {
+            img{
+                width: 100%;
+            }
+            p{
+                font-size: 30px;
+           }
+            
+       }
+  
+      
+    
+     }
+
+}

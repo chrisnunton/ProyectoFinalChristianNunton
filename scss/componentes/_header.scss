@@ -1,0 +1,17 @@
+/*----Estilos a mi header----*/
+/*
+Se usa la variable f para usar flex
+Asi mismo se usa listas para el uso del tamaño de la fuente y el color de ella
+*/
+
+.divheader{
+    display: $f;    
+    h1 {
+        font-size: nth($f-size, 1 );
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        color: nth($color-text ,1 );
+        padding-top: 10px;
+      }
+}
+
+ 

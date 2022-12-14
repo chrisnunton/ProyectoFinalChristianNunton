@@ -1,0 +1,28 @@
+
+ #regresoindex{
+
+    background-color: map-get($regresoindex,bc-regreindex );
+    display: map-get($todoflex, displa );
+    justify-content: center;
+
+    a{
+        font-size: 32px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        text-decoration: none;
+        align-items: center;
+        display: map-get($todoflex, displa );
+
+        &:hover{
+            color:nth($color-text , 2 )
+
+            }
+    
+    }
+
+}
+
+
+
+
+ 

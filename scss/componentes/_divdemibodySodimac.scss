@@ -1,0 +1,20 @@
+#cajabody{
+    background-color: rgba(22, 35, 205, 0.876);
+    background-repeat: repeat;
+    opacity: 0,5
+
+}
+
+/*--dando animaciones  a mis imagenes de los diversos maestros y sodimac en sodimachtml y maestrohtml */
+
+.animacion:hover{
+    transform: scale(0.9); 
+     transition: all 1.5s;
+         
+}
+
+ .sodimac h4{
+     color:red;   
+     text-decoration:underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

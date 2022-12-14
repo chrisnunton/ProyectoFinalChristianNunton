@@ -1,0 +1,30 @@
+/*----Estilos a mi Section----*/
+
+section{
+    
+    display: $f;
+    flex-direction: $fdr;
+    justify-content: flex-end;
+
+     article {        
+         width:min-content;
+
+                p{         
+                    color:nth($color-text ,1 );
+                    font-family: 'Courier New';
+                    font-size: nth($f-size,3 );
+                }
+
+                div span a{
+                    color:nth($color-text ,1 );
+                   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          
+                            &:hover{
+                                color:nth($color-text , 2 )
+
+                                }
+                         }
+                }
+
+ }
+

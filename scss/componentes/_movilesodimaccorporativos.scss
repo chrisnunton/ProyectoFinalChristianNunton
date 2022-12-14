@@ -1,0 +1,40 @@
+/*-----------MOVILE SODIMACCORPORATIVO.HTML---------*/
+
+#cajaprincipalsodimacorporativo{
+
+@media screen and (max-width:925px){
+    .soysection2{
+            display: none;
+
+    }
+    main{
+        background-color: rgb(255, 255, 255,0.876);
+        p{
+
+            color:black;
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        img{
+            width: 350px;
+            height: 350px;
+          
+            padding-bottom: 20px;
+        }
+    }
+   
+
+}
+
+
+
+
+@media screen and (max-width: 576px){
+
+    main p{
+
+        color:red;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+}
+}

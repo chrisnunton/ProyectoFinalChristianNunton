@@ -1,0 +1,71 @@
+
+ #divfondosection{
+  
+    @media screen and (max-width:1000px){
+       background-color: yellow;
+                   #idsection{
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: center;
+                       align-items: center;
+                       article  {         
+                           p{
+                               color:black;
+                               font-family: 'Courier New';
+                               font-size: 52px;
+                           }
+                           div span a{
+                               color:black;
+                           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                       
+                            }
+                           }
+                        } 
+                            
+                            
+   }
+   
+   
+   @media screen and (max-width: 576px){
+       background-color: white;
+        #idsection{
+                   article  {  
+                           p{       
+                               color:black;
+                               font-family: 'Courier New';
+                               font-size: 50px;
+                           }
+                           div span a{
+                               color:black;
+                           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                           
+                                   }
+                           }
+                     }
+                     
+   
+   }
+   }
+
+.row{
+
+    
+    @media screen and (max-width: 576px){
+   
+   .classfooter{
+                              
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    a{
+        text-decoration: none;
+        p{
+            margin: 20px;
+        }
+    }
+
+}
+}
+
+}

@@ -1,0 +1,30 @@
+
+
+/*----Estilos de mi footer----*/
+
+footer{
+    
+    display: $f;
+    justify-content: center;
+    background-color: nth($color, 3 );
+   
+    .classfooter{
+        align-items: center;
+        display: $f;
+        gap: 2px;
+        a{
+            color: nth($color-text, 1 );
+            text-decoration: none;
+            p{
+                margin: 20px;
+            }
+        }
+    }
+   
+   }
+   
+       
+   
+       
+   
+     

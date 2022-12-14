@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Nunton</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<form id="contact" class="container__index-form" method="post" action="enviar.php">
+		<h2>Contactanos</h2>
+		<p>Nombre</p>
+		<input type="text" class="field" id="nombre" type="text" name="nombre" placeholder="nombre asesor" required="required"> 
+
+		<p>Correo electrónico:</p>
+		<input type="text" class="field" type="email" name="email" id="email" placeholder="email" required="required"> 
+
+		<p>Mensaje:</p>
+		<textarea class="field"  name="mensaje" id="mensaje" cols="50" rows="4" style="resize:none;"required="required"></textarea> 
+
+		<p class="center-content">
+			<input type="submit" class="btn btn-green" value="Enviar Datos" name="enviar">
+		</p>
+
+	</form>
+    
+</body>
+</html>
